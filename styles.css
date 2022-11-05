@@ -1,0 +1,86 @@
+body {
+    background-color: #2C666E;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #90DDF0;
+}
+
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: center;
+    column-gap: 1.5%;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: #07393C;
+}
+
+.card-body {
+    background-color: #F0EDEE;
+}
+
+.name-flag-container {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.name-flag-container > p {
+    margin-left: 1%;
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.col-md-4 > img {
+    width: 100%;
+    height: 25vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.time-zone {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.time-zone > p {
+    margin-left: 2%;
+    width: 80%;
+}
+
+.time-zone > svg {
+    margin-top: 1%;
+}
+
+.location > svg {
+    margin-bottom: 1%;
+}
+
+.location > a {
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.location > a:hover { 
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
