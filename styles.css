@@ -81,3 +81,21 @@ h1 {
     color: white;
 }
 
+@media only screen and (max-width:780px) {
+    .cards {
+        grid-template-columns: 70% 
+    }
+
+    .col-md-8 {
+        width: 65%;
+
+    }
+
+    .col-md-4 {
+        width: 33%;
+    }
+
+    .col-md-4 > img {
+        height: 10vh;
+    }
+}
