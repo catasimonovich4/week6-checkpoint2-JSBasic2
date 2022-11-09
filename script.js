@@ -23439,7 +23439,7 @@ function setCards() {
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="./cinema.jpeg" class="img-fluid rounded-start" alt="...">
+                        <img src="${countries[i].flags.svg}" class="img-fluid rounded-start" alt="...">
                     </div>
                 </div>
             </div>
